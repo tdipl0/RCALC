@@ -3,8 +3,8 @@ import streamlit as st
 st.title("Ronan's Calculator")
 
 # Inputs
-a = st.number_input("Enter A")
-b = st.number_input("Enter B")
+a = st.number_input("Enter Value 1")
+b = st.number_input("Enter Value 2")
 
 # Operation selection
 operation = st.selectbox("Choose an operation", ["Add", "Subtract", "Multiply", "Divide"])
